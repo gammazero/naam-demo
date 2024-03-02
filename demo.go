@@ -17,10 +17,16 @@ import (
 )
 
 const (
-	// indexer ingest URL (e.g. "https//assigner.dev.cid.contact:3001")
+	// indexer ingest URL (e.g. "https://dev.cid.contact")
 	announceURL = "http://localhost:3001"
 	// dhstore service URL (e.g. "https://dev.cid.contact")
 	findURL = "http://localhost:40080"
+	// address:port that publisher listens on.
+	httpListenAddr = "0.0.0.0:9999"
+	// multiaddr telling the indexer where to fetch advertisements from.
+	publisherAddr = "/dns4/localhost/tcp/9999/http"
+	// multiaddr to use as provider address in anvertisements.
+	providerAddr = "/dns4/ipfs.io/tcp/443/https"
 
 	squirrelCID = "QmPNHBy5h7f19yJDt7ip9TvmMRbqmYsa6aetkrsc1ghjLB"
 	radChartCID = "Qmejoony52NYREWv3e9Ap6Uvg29GmJKJpxaDgAbzzYL9kX"
@@ -36,8 +42,11 @@ func main() {
 
 func run(ctx context.Context) error {
 	nm, err := naam.New(
-		naam.WithHttpIndexerURL(announceURL),
-		naam.WithHttpFindURL(findURL),
+		naam.WithListenAddr(httpListenAddr),
+		naam.WithAnnounceURL(announceURL),
+		naam.WithFindURL(findURL),
+		naam.WithPublisherAddrs(publisherAddr),
+		naam.WithProviderAddrs(providerAddr),
 	)
 	if err != nil {
 		return fmt.Errorf("failed to create naam: %s", err)

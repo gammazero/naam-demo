@@ -5,8 +5,14 @@ go 1.21
 require (
 	github.com/ipfs/boxo v0.17.0
 	github.com/ipfs/go-cid v0.4.1
-	github.com/ipni/go-naam v0.0.0-20240301093728-d0829bc269f6
+	github.com/ipfs/go-datastore v0.6.0
+	github.com/ipld/go-ipld-prime v0.21.0
+	github.com/ipni/go-libipni v0.6.2
+	github.com/ipni/go-naam v0.0.0-20240302061102-73d6f8d4f0fd
 	github.com/libp2p/go-libp2p v0.33.0
+	github.com/multiformats/go-multicodec v0.9.0
+	github.com/multiformats/go-multihash v0.2.3
+	github.com/multiformats/go-varint v0.0.7
 )
 
 require (
@@ -36,10 +42,7 @@ require (
 	github.com/hashicorp/go-retryablehttp v0.7.4 // indirect
 	github.com/hashicorp/golang-lru/v2 v2.0.7 // indirect
 	github.com/huin/goupnp v1.3.0 // indirect
-	github.com/ipfs/go-datastore v0.6.0 // indirect
 	github.com/ipfs/go-log/v2 v2.5.1 // indirect
-	github.com/ipld/go-ipld-prime v0.21.0 // indirect
-	github.com/ipni/go-libipni v0.6.2 // indirect
 	github.com/jackpal/go-nat-pmp v1.0.2 // indirect
 	github.com/jbenet/go-temp-err-catcher v0.1.0 // indirect
 	github.com/jbenet/goprocess v0.1.4 // indirect
@@ -69,10 +72,7 @@ require (
 	github.com/multiformats/go-multiaddr-dns v0.3.1 // indirect
 	github.com/multiformats/go-multiaddr-fmt v0.1.0 // indirect
 	github.com/multiformats/go-multibase v0.2.0 // indirect
-	github.com/multiformats/go-multicodec v0.9.0 // indirect
-	github.com/multiformats/go-multihash v0.2.3 // indirect
 	github.com/multiformats/go-multistream v0.5.0 // indirect
-	github.com/multiformats/go-varint v0.0.7 // indirect
 	github.com/onsi/ginkgo/v2 v2.15.0 // indirect
 	github.com/opencontainers/runtime-spec v1.2.0 // indirect
 	github.com/pbnjay/memory v0.0.0-20210728143218-7b4eea64cf58 // indirect

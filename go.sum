@@ -144,12 +144,8 @@ github.com/ipld/go-ipld-prime v0.21.0 h1:n4JmcpOlPDIxBcY037SVfpd1G+Sj1nKZah0m6QH
 github.com/ipld/go-ipld-prime v0.21.0/go.mod h1:3RLqy//ERg/y5oShXXdx5YIp50cFGOanyMctpPjsvxQ=
 github.com/ipni/go-libipni v0.6.2 h1:Fan2wEJLIFIgYbMAGY/c/MYE2TeiITQNPIQebCA+scA=
 github.com/ipni/go-libipni v0.6.2/go.mod h1:RDN2sUK91ocD6CSH7BYBBK9zk1FsbgbBjHPtt6pGt0Y=
-github.com/ipni/go-naam v0.0.0-20240229071237-952715334fcd h1:geJteMDb5a/m0fVhWcH3BjcInaNNY2jq1q+3hxFWyws=
-github.com/ipni/go-naam v0.0.0-20240229071237-952715334fcd/go.mod h1:aMdPlWEP5ucplyE3/Ewoiz8wq3EtjAHQOz5ZAWTmWLg=
-github.com/ipni/go-naam v0.0.0-20240301073702-bd31ef1fd9e7 h1:0JOp9X2aNoQRQazmgpkVo82hLJhmzmr7r6YbbMBoBtQ=
-github.com/ipni/go-naam v0.0.0-20240301073702-bd31ef1fd9e7/go.mod h1:aMdPlWEP5ucplyE3/Ewoiz8wq3EtjAHQOz5ZAWTmWLg=
-github.com/ipni/go-naam v0.0.0-20240301093728-d0829bc269f6 h1:G8ErbFANGr/ZBdlHR31Px7JoEIL4nz434NtWRCwtHX8=
-github.com/ipni/go-naam v0.0.0-20240301093728-d0829bc269f6/go.mod h1:aMdPlWEP5ucplyE3/Ewoiz8wq3EtjAHQOz5ZAWTmWLg=
+github.com/ipni/go-naam v0.0.0-20240302061102-73d6f8d4f0fd h1:Aw2418y5QWJQhaimHieSrrgx7G4J0fEINhf9e6tfRlI=
+github.com/ipni/go-naam v0.0.0-20240302061102-73d6f8d4f0fd/go.mod h1:zhDAQK8ro69fx7J45U+QiXwdK2Ri+rBpRs130fx6M4Y=
 github.com/ipni/storetheindex v0.8.18 h1:tHKPLYEpejZwnIGp/CQt6fQxVV3Ci0S177src2ay5Q0=
 github.com/ipni/storetheindex v0.8.18/go.mod h1:udFpEMRJ4wDn9HObSQf+CLYIUXMhZ0VuYA6KHBvi63o=
 github.com/jackpal/go-nat-pmp v1.0.2 h1:KzKSgb7qkJvOUTqYl9/Hg/me3pWgBmERKrTGD7BdWus=
